@@ -1,0 +1,1 @@
+python train_speaker_SPTK.py -d mfcc -o result
