@@ -1,7 +1,7 @@
 # seminar_-recognition
 認識についてのお話とサンプル
 ## 手順について[ライブラリのインストール編]
- - スライド11ページ
+ - スライド11ページ  
 `$ sudo apt-get install tcsh`  
 `$ sudo apt-get install python python-pip`  
 `$ sudo pip install –upgrade pip`  
