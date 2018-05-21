@@ -27,8 +27,8 @@
 ## ファイルの書き加え
  - スライド14  
 `$ sudo nano /etc/modprobe.d/alsa-base.conf`  
-`options snd slots=snd_usb_audio,snd_bcm2835
-options snd_usb_audio index=0
+`options snd slots=snd_usb_audio,snd_bcm2835  
+options snd_usb_audio index=0  
 options snd_bcm2835 index=1`  
 `$ sudo reboot now`  
 `$ cat /proc/asound/modules`  
