@@ -3,16 +3,18 @@
 ## 手順について[ライブラリのインストール編]
  - スライド11ページ  
 `$ sudo apt-get install tcsh`  
-`$ sudo apt-get install python python-pip`  
-`$ sudo pip install –upgrade pip`  
-`$ sudo pip install numpy`  
-`$ sudo pip install chainer==3.2.0`  
+`$ sudo apt-get install python3 python-pip`  
+`$ sudo pip3 install –upgrade pip`  
+`$ sudo pip3 install numpy`  
+`$ sudo pip3 install chainer==3.2.0`  
 `$ wegt http://downloads.sourceforge.net/sp-tk/SPTK-3.5.tar.gz`  
 `$ tar –zvxf SPTK-3.5.tar.gz`  
 `$ cd SPTK-3.5`  
 `$ ./configure`  
 `$ make`  
-`$ sudo make install`  
+`$ sudo make install`  
+### 補足
+
 
  - スライド12ページ  
 `$ sudo apt-get install portaudio19-dev`  
