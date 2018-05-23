@@ -21,7 +21,7 @@
 `$ sudo apt-get install libblas-dev`  
 `$ sudo apt-get install liblapack-dev`  
 `$ sudo apt-get install gfortran`  
-`$ sudo pip install scipy`  
+`$ sudo pip3 install scipy`  
 `$ sudo apt-get install libportaudio-dev`  
 `$ sudo apt-get install libatlas-base-dev`  
 `$ sudo apt-get install python-pyaudio`  
