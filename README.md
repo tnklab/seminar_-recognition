@@ -54,8 +54,8 @@ options snd_bcm2835 index=1`
 `mkdir␣-p␣data/train/takenoko`  
 
 ## 画像を増やす
-`python␣DataArg.py␣-i␣data/raw_kinoko␣–o␣ data/train/kinoko`　　
-`python␣DataArg.py␣-i␣data/raw_takenoko␣–o ␣data/train/takenoko`　　
+`python␣DataArg.py␣-i␣data/raw_kinoko␣–o␣ data/train/kinoko`  
+`python␣DataArg.py␣-i␣data/raw_takenoko␣–o ␣data/train/takenoko`　　  
 
 
  
