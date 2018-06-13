@@ -44,7 +44,7 @@ options snd_bcm2835 index=1`
 `sudo apt-get install python-opencv`  
 `sudo pip install 'django<2.0'`    
 `sudo pip install image`  
-
+`sudo pip install python-scipy`
 
 ## フォルダの作成
 `cd␣Raspi_kinoko_takenoko`  
@@ -57,5 +57,6 @@ options snd_bcm2835 index=1`
 `python␣DataArg.py␣-i␣data/raw_kinoko␣–o␣ data/train/kinoko`  
 `python␣DataArg.py␣-i␣data/raw_takenoko␣–o ␣data/train/takenoko`　　  
 
+## ライブラリのインストール
 
  
