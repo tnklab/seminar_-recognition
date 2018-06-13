@@ -37,10 +37,10 @@ options snd_bcm2835 index=1`
 `$ cat /proc/asound/modules`  
 
 # seminer_image
-`$ sudo␣pip␣install␣- -upgrade␣pip  
-sudo␣apt-get install␣python-dev  
-sudo␣apt-get install␣python-matplotlib  
-sudo␣pip␣install␣python-opencv  
-sudo␣pip␣install␣‘django<2.0’  
-sudo␣pip␣install␣image  
-` 
+`$ sudo␣pip␣install␣- -upgrade␣pip`  
+`sudo␣apt-get install␣python-dev`  
+`sudo␣apt-get install␣python-matplotlib`  
+`sudo␣pip␣install␣python-opencv`  
+`sudo␣pip␣install␣‘django<2.0`  
+`sudo␣pip␣install␣image`  
+ 
