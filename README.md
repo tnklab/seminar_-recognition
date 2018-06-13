@@ -47,10 +47,15 @@ options snd_bcm2835 index=1`
 
 
 ## フォルダの作成
-`cd␣Raspi_kinoko_takenoko`
-`mkdir␣-p␣data/raw_kinoko`
-`mkdir␣-p␣data/raw_takenoko`
-`mkdir␣-p␣data/train/kinoko`
-`mkdir␣-p␣data/train/takenoko`
+`cd␣Raspi_kinoko_takenoko`  
+`mkdir␣-p␣data/raw_kinoko`  
+`mkdir␣-p␣data/raw_takenoko`  
+`mkdir␣-p␣data/train/kinoko`  
+`mkdir␣-p␣data/train/takenoko`  
+
+## 画像を増やす
+`python␣DataArg.py␣-i␣data/raw_kinoko␣–o␣ data/train/kinoko`　　
+`python␣DataArg.py␣-i␣data/raw_takenoko␣–o ␣data/train/takenoko`　　
+
 
  
