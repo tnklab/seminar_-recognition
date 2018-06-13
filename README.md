@@ -36,11 +36,21 @@ options snd_bcm2835 index=1`
 `$ sudo reboot now`  
 `$ cat /proc/asound/modules`  
 
-# seminer_image
+# seminer-image
+## 必要なライブラリのインストール
 `$ sudo␣pip␣install␣- -upgrade␣pip`  
 `sudo␣apt-get install␣python-dev`  
 `sudo␣apt-get install␣python-matplotlib`  
 `sudo␣pip␣install␣python-opencv`  
 `sudo␣pip␣install␣‘django<2.0`  
 `sudo␣pip␣install␣image`  
+
+
+## フォルダの作成
+`cd␣Raspi_kinoko_takenoko`
+`mkdir␣-p␣data/raw_kinoko`
+`mkdir␣-p␣data/raw_takenoko`
+`mkdir␣-p␣data/train/kinoko`
+`mkdir␣-p␣data/train/takenoko`
+
  
